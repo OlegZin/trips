@@ -1,0 +1,458 @@
+object fTask: TfTask
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 614
+  ClientWidth = 488
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object pNone: TRectangle
+    Fill.Kind = None
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 273.000000000000000000
+    Size.Height = 417.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object panel: TRectangle
+    Align = Client
+    Fill.Kind = None
+    Size.Width = 488.000000000000000000
+    Size.Height = 614.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object layLiving: TLayout
+      Align = Top
+      ClipChildren = True
+      Position.Y = 437.000000000000000000
+      Size.Width = 488.000000000000000000
+      Size.Height = 77.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 13
+      object PayType: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 0
+        ReadOnly = True
+        Position.X = 198.000000000000000000
+        Position.Y = 9.000000000000000000
+        Size.Width = 274.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        OnChange = WriteToData
+        OnKeyUp = WorkTypeKeyUp
+        object EditButton6: TEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = '...'
+          OnClick = EditButton6Click
+        end
+      end
+      object Summa: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 1
+        Position.X = 198.000000000000000000
+        Position.Y = 41.000000000000000000
+        Size.Width = 274.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        OnChange = WriteToData
+        OnKeyUp = WorkTypeKeyUp
+      end
+      object Label11: TLabel
+        StyledSettings = [Family]
+        Position.X = 12.000000000000000000
+        Position.Y = 11.000000000000000000
+        Size.Width = 184.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDarkgray
+        Text = #1042#1080#1076' '#1086#1087#1083#1072#1090#1099
+      end
+      object Label12: TLabel
+        StyledSettings = [Family]
+        Position.X = 12.000000000000000000
+        Position.Y = 43.000000000000000000
+        Size.Width = 184.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDarkgray
+        Text = #1057#1091#1084#1084#1072' '#1073#1077#1079' '#1053#1044#1057
+      end
+    end
+    object layAuto: TLayout
+      Align = Top
+      ClipChildren = True
+      Position.Y = 277.000000000000000000
+      Size.Width = 488.000000000000000000
+      Size.Height = 141.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 12
+      object IdleAct: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 0
+        Position.X = 198.000000000000000000
+        Position.Y = 106.000000000000000000
+        Size.Width = 274.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        OnChange = WriteToData
+        OnKeyUp = WorkTypeKeyUp
+        object EditButton2: TEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = '...'
+          OnClick = EditButton2Click
+        end
+      end
+      object AutoNumber: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 1
+        Position.X = 198.000000000000000000
+        Position.Y = 74.000000000000000000
+        Size.Width = 274.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        OnChange = WriteToData
+        OnKeyUp = WorkTypeKeyUp
+        object EditButton3: TEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = '...'
+          OnClick = EditButton3Click
+        end
+      end
+      object Driver: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 2
+        Position.X = 198.000000000000000000
+        Position.Y = 42.000000000000000000
+        Size.Width = 274.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        OnChange = WriteToData
+        OnKeyUp = WorkTypeKeyUp
+        object EditButton4: TEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = '...'
+          OnClick = EditButton4Click
+        end
+      end
+      object Organization: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 3
+        Position.X = 198.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 274.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        OnChange = WriteToData
+        OnKeyUp = WorkTypeKeyUp
+        object EditButton5: TEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = '...'
+          OnClick = EditButton5Click
+        end
+      end
+      object Label10: TLabel
+        StyledSettings = [Family]
+        Position.X = 12.000000000000000000
+        Position.Y = 108.000000000000000000
+        Size.Width = 184.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDarkgray
+        Text = #1040#1082#1090' '#1087#1088#1086#1089#1090#1086#1103
+      end
+      object Label7: TLabel
+        StyledSettings = [Family]
+        Position.X = 12.000000000000000000
+        Position.Y = 12.000000000000000000
+        Size.Width = 184.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDarkgray
+        Text = #1054#1088#1075#1072#1085#1080#1079#1072#1094#1080#1103
+      end
+      object Label8: TLabel
+        StyledSettings = [Family]
+        Position.X = 12.000000000000000000
+        Position.Y = 44.000000000000000000
+        Size.Width = 184.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDarkgray
+        Text = #1042#1086#1076#1080#1090#1077#1083#1100
+      end
+      object Label9: TLabel
+        StyledSettings = [Family]
+        Position.X = 12.000000000000000000
+        Position.Y = 76.000000000000000000
+        Size.Width = 184.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDarkgray
+        Text = #1040#1074#1090#1086#1084#1086#1073#1080#1083#1100
+      end
+    end
+    object layMainBlock: TLayout
+      Align = Top
+      Position.Y = 17.000000000000000000
+      Size.Width = 488.000000000000000000
+      Size.Height = 241.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      object Label3: TLabel
+        StyledSettings = [Family]
+        Position.X = 9.000000000000000000
+        Position.Y = 16.000000000000000000
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDarkgray
+        Text = #1042#1080#1076' '#1088#1072#1073#1086#1090
+      end
+      object WorkType: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 1
+        ReadOnly = True
+        Position.X = 198.000000000000000000
+        Position.Y = 13.000000000000000000
+        Size.Width = 274.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        OnChange = WriteToData
+        OnKeyUp = WorkTypeKeyUp
+        object EditButton1: TEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = '...'
+          OnClick = EditButton1Click
+        end
+      end
+      object Label4: TLabel
+        StyledSettings = [Family]
+        Position.X = 9.000000000000000000
+        Position.Y = 48.000000000000000000
+        Size.Width = 192.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDarkgray
+        Text = #1053#1086#1084#1077#1085#1082#1083#1072#1090#1091#1088#1085#1072#1103' '#1075#1088#1091#1087#1087#1072
+      end
+      object Nomenkl: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 3
+        ReadOnly = True
+        Position.X = 198.000000000000000000
+        Position.Y = 47.000000000000000000
+        Size.Width = 275.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        object EditButton7: TEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = '...'
+          OnClick = EditButton7Click
+        end
+      end
+      object Label5: TLabel
+        StyledSettings = [Family]
+        Position.X = 8.000000000000000000
+        Position.Y = 82.000000000000000000
+        Size.Width = 192.000000000000000000
+        Size.Height = 18.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDarkgray
+        Text = #1058#1080#1087' '#1086#1089#1085#1086#1074#1072#1085#1080#1103
+      end
+      object ReasonType: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 5
+        ReadOnly = True
+        Position.X = 198.000000000000000000
+        Position.Y = 81.000000000000000000
+        Size.Width = 275.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label6: TLabel
+        StyledSettings = [Family]
+        Position.X = 9.000000000000000000
+        Position.Y = 118.000000000000000000
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDarkgray
+        Text = #1054#1089#1085#1086#1074#1072#1085#1080#1077
+      end
+      object Reasons: TListBox
+        Anchors = [akLeft, akTop, akRight]
+        Position.X = 198.000000000000000000
+        Position.Y = 116.000000000000000000
+        Size.Width = 275.000000000000000000
+        Size.Height = 89.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 271.000000000000000000
+        Viewport.Height = 85.000000000000000000
+      end
+      object Button1: TButton
+        Anchors = [akTop, akRight]
+        Position.X = 435.000000000000000000
+        Position.Y = 210.000000000000000000
+        Size.Width = 40.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 8
+        Text = '-'
+        OnClick = Button1Click
+      end
+      object Button2: TButton
+        Anchors = [akTop, akRight]
+        Position.X = 387.000000000000000000
+        Position.Y = 210.000000000000000000
+        Size.Width = 40.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 9
+        Text = '+'
+        OnClick = Button2Click
+      end
+    end
+    object AutoUsed: TCheckBox
+      Align = Top
+      StyledSettings = [Family]
+      Margins.Left = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 258.000000000000000000
+      Size.Width = 468.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = #1048#1089#1087#1086#1083#1100#1079#1086#1074#1072#1090#1100' '#1072#1074#1090#1086#1090#1088#1072#1085#1089#1087#1086#1088#1090
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.FontColor = claDarkgray
+      OnChange = AutoUsedChange
+    end
+    object LivingUsed: TCheckBox
+      Align = Top
+      StyledSettings = [Family]
+      Margins.Left = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 418.000000000000000000
+      Size.Width = 468.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      Text = #1055#1088#1086#1078#1080#1074#1072#1085#1080#1077
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.FontColor = claDarkgray
+      OnChange = AutoUsedChange
+    end
+    object layButtons: TLayout
+      Align = Top
+      Position.Y = 514.000000000000000000
+      Size.Width = 488.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 14
+      object bCancel: TButton
+        Anchors = [akTop, akRight]
+        Position.X = 392.000000000000000000
+        Position.Y = 4.000000000000000000
+        TabOrder = 0
+        Text = #1054#1090#1084#1077#1085#1072
+        OnClick = bCancelClick
+      end
+      object bClear: TButton
+        Anchors = [akTop, akRight]
+        Position.X = 307.000000000000000000
+        Position.Y = 4.000000000000000000
+        TabOrder = 2
+        Text = #1054#1095#1080#1089#1090#1080#1090#1100
+        OnClick = bClearClick
+      end
+      object bSave: TButton
+        Anchors = [akTop, akRight]
+        Position.X = 197.000000000000000000
+        Position.Y = 4.000000000000000000
+        TabOrder = 1
+        Text = #1057#1086#1093#1088#1072#1085#1080#1090#1100
+        OnClick = bSaveClick
+      end
+    end
+    object Label1: TLabel
+      Align = Top
+      StyledSettings = [Family]
+      Size.Width = 488.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.FontColor = claDodgerblue
+      Text = #1057#1054#1047#1044#1040#1053#1048#1045'/'#1056#1045#1044#1040#1050#1058#1048#1056#1054#1042#1040#1053#1048#1045' '#1047#1040#1044#1040#1063#1048
+    end
+  end
+end

@@ -1,0 +1,2515 @@
+object fMain: TfMain
+  Left = 0
+  Top = 0
+  Caption = #1050#1086#1084#1072#1085#1076#1080#1088#1086#1074#1082#1072
+  ClientHeight = 907
+  ClientWidth = 1255
+  Fill.Kind = Solid
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCloseQuery = FormCloseQuery
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object layMonthGrid: TLayout
+    Align = Scale
+    Position.X = 9.471699714660645000
+    Position.Y = 176.497283935546900000
+    Size.Width = 618.028564453125000000
+    Size.Height = 720.697143554687500000
+    Size.PlatformDefault = False
+    TabOrder = 57
+    object Label1: TLabel
+      Align = Scale
+      StyledSettings = [Family, FontColor]
+      Position.X = 4.735850811004639000
+      Position.Y = 5.245253086090088000
+      Size.Width = 91.165122985839840000
+      Size.Height = 20.981012344360350000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.HorzAlign = Center
+      Text = #1055#1053
+    end
+    object Label2: TLabel
+      Align = Scale
+      StyledSettings = [Family, FontColor]
+      Position.X = 92.349098205566410000
+      Position.Y = 5.245253086090088000
+      Size.Width = 91.165184020996090000
+      Size.Height = 20.981012344360350000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.HorzAlign = Center
+      Text = #1042#1058
+    end
+    object Label3: TLabel
+      Align = Scale
+      StyledSettings = [Family, FontColor]
+      Position.X = 178.778366088867200000
+      Position.Y = 5.245253086090088000
+      Size.Width = 91.165084838867190000
+      Size.Height = 20.981012344360350000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.HorzAlign = Center
+      Text = #1057#1056
+    end
+    object Label4: TLabel
+      Align = Scale
+      StyledSettings = [Family, FontColor]
+      Position.X = 266.391571044921900000
+      Position.Y = 5.245253086090088000
+      Size.Width = 91.165191650390630000
+      Size.Height = 20.981012344360350000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.HorzAlign = Center
+      Text = #1063#1058
+    end
+    object Label5: TLabel
+      Align = Scale
+      StyledSettings = [Family, FontColor]
+      Position.X = 354.005004882812500000
+      Position.Y = 5.245253086090088000
+      Size.Width = 91.164947509765630000
+      Size.Height = 20.981012344360350000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.HorzAlign = Center
+      Text = #1055#1058
+    end
+    object Label6: TLabel
+      Align = Scale
+      StyledSettings = [Family]
+      Position.X = 440.434204101562500000
+      Position.Y = 5.245253086090088000
+      Size.Width = 91.165100097656250000
+      Size.Height = 20.981012344360350000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.FontColor = claDarkred
+      TextSettings.HorzAlign = Center
+      Text = #1057#1041
+    end
+    object Label7: TLabel
+      Align = Scale
+      StyledSettings = [Family]
+      Position.X = 522.127624511718800000
+      Position.Y = 5.245253086090088000
+      Size.Width = 91.165039062500000000
+      Size.Height = 20.981012344360350000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.FontColor = claDarkred
+      TextSettings.HorzAlign = Center
+      Text = #1042#1057
+    end
+    object tileDay11: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 2.367925405502319000
+      Position.Y = 28.324340820312500000
+      Size.Width = 87.613250732421880000
+      Size.Height = 136.376296997070300000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle1: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.959999799728394000
+        Position.Y = 3.415580749511719000
+        Size.Width = 22.693332672119140000
+        Size.Height = 26.186119079589840000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label8: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.693332672119140000
+          Size.Height = 26.186119079589840000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay12: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 89.981170654296880000
+      Position.Y = 28.324340820312500000
+      Size.Width = 87.613281250000000000
+      Size.Height = 136.376296997070300000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle2: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.959999799728394000
+        Position.Y = 3.415580749511719000
+        Size.Width = 22.693332672119140000
+        Size.Height = 26.186119079589840000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label9: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.693332672119140000
+          Size.Height = 26.186119079589840000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay13: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 177.594406127929700000
+      Position.Y = 28.324340820312500000
+      Size.Width = 87.613357543945310000
+      Size.Height = 136.376296997070300000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle3: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.960000038146973000
+        Position.Y = 3.415580749511719000
+        Size.Width = 22.693332672119140000
+        Size.Height = 26.186119079589840000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label10: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.693332672119140000
+          Size.Height = 26.186119079589840000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay14: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 265.207641601562500000
+      Position.Y = 28.324340820312500000
+      Size.Width = 87.613250732421880000
+      Size.Height = 136.376296997070300000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle4: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.960000038146973000
+        Position.Y = 3.415580749511719000
+        Size.Width = 22.693332672119140000
+        Size.Height = 26.186119079589840000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label11: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.693332672119140000
+          Size.Height = 26.186119079589840000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay15: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 352.821075439453100000
+      Position.Y = 28.324340820312500000
+      Size.Width = 87.613372802734380000
+      Size.Height = 136.376296997070300000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle5: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.960000038146973000
+        Position.Y = 3.415580749511719000
+        Size.Width = 22.693332672119140000
+        Size.Height = 26.186119079589840000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label12: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.693332672119140000
+          Size.Height = 26.186119079589840000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay16: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claPapayawhip
+      Position.X = 440.434204101562500000
+      Position.Y = 28.324340820312500000
+      Size.Width = 87.613403320312500000
+      Size.Height = 136.376296997070300000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle6: TCircle
+        Fill.Color = claPapayawhip
+        HitTest = False
+        Position.X = 2.960000038146973000
+        Position.Y = 3.415580749511719000
+        Size.Width = 22.693332672119140000
+        Size.Height = 26.186119079589840000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label13: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.693332672119140000
+          Size.Height = 26.186119079589840000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay17: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claPapayawhip
+      Position.X = 528.047485351562500000
+      Position.Y = 28.324340820312500000
+      Size.Width = 87.613037109375000000
+      Size.Height = 136.376296997070300000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle7: TCircle
+        Fill.Color = claPapayawhip
+        HitTest = False
+        Position.X = 2.960000038146973000
+        Position.Y = 3.415580749511719000
+        Size.Width = 22.693332672119140000
+        Size.Height = 26.186119079589840000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label14: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.693332672119140000
+          Size.Height = 26.186119079589840000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay21: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 2.367925405502319000
+      Position.Y = 166.798889160156300000
+      Size.Width = 87.613250732421880000
+      Size.Height = 136.376464843750000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle8: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309432983398000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703372955322270000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label15: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703372955322270000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay22: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 89.981170654296880000
+      Position.Y = 166.798889160156300000
+      Size.Width = 87.613281250000000000
+      Size.Height = 136.376464843750000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle9: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309432983398000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703372955322270000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label16: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703372955322270000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay23: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 177.594406127929700000
+      Position.Y = 166.798889160156300000
+      Size.Width = 87.613357543945310000
+      Size.Height = 136.376464843750000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle10: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309909820557000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703374862670900000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label17: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703374862670900000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay24: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 265.207641601562500000
+      Position.Y = 166.798889160156300000
+      Size.Width = 87.613250732421880000
+      Size.Height = 136.376464843750000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle11: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309194564819000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703369140625000000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label18: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703369140625000000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay25: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 352.821075439453100000
+      Position.Y = 166.798889160156300000
+      Size.Width = 87.613372802734380000
+      Size.Height = 136.376464843750000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle12: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309194564819000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703369140625000000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label19: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703369140625000000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay26: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claPapayawhip
+      Position.X = 440.434204101562500000
+      Position.Y = 166.798889160156300000
+      Size.Width = 87.613403320312500000
+      Size.Height = 136.376464843750000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle13: TCircle
+        Fill.Color = claPapayawhip
+        HitTest = False
+        Position.X = 2.961309194564819000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703369140625000000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label20: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703369140625000000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay27: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claPapayawhip
+      Position.X = 528.047485351562500000
+      Position.Y = 166.798889160156300000
+      Size.Width = 87.613037109375000000
+      Size.Height = 136.376464843750000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle14: TCircle
+        Fill.Color = claPapayawhip
+        HitTest = False
+        Position.X = 2.960000038146973000
+        Position.Y = 3.415580749511719000
+        Size.Width = 22.693332672119140000
+        Size.Height = 26.186119079589840000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label21: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.693332672119140000
+          Size.Height = 26.186119079589840000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay32: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 89.981170654296880000
+      Position.Y = 305.273529052734400000
+      Size.Width = 87.613281250000000000
+      Size.Height = 136.376373291015600000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle16: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309432983398000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703372955322270000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label23: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703372955322270000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay33: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 177.594406127929700000
+      Position.Y = 305.273529052734400000
+      Size.Width = 87.613357543945310000
+      Size.Height = 136.376373291015600000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle17: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309909820557000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703374862670900000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label24: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703374862670900000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay34: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 265.207641601562500000
+      Position.Y = 305.273529052734400000
+      Size.Width = 87.613250732421880000
+      Size.Height = 136.376373291015600000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle18: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309194564819000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703369140625000000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label25: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703369140625000000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay35: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 352.821075439453100000
+      Position.Y = 305.273529052734400000
+      Size.Width = 87.613372802734380000
+      Size.Height = 136.376373291015600000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle19: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309194564819000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703369140625000000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label26: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703369140625000000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay36: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claPapayawhip
+      Position.X = 440.434204101562500000
+      Position.Y = 305.273529052734400000
+      Size.Width = 87.613403320312500000
+      Size.Height = 136.376373291015600000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle20: TCircle
+        Fill.Color = claPapayawhip
+        HitTest = False
+        Position.X = 2.961309194564819000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703369140625000000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label27: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703369140625000000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay37: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claPapayawhip
+      Position.X = 528.047485351562500000
+      Position.Y = 305.273529052734400000
+      Size.Width = 87.613037109375000000
+      Size.Height = 136.376373291015600000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle21: TCircle
+        Fill.Color = claPapayawhip
+        HitTest = False
+        Position.X = 2.960000038146973000
+        Position.Y = 3.415580749511719000
+        Size.Width = 22.693332672119140000
+        Size.Height = 26.186119079589840000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label28: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.693332672119140000
+          Size.Height = 26.186119079589840000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay31: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 2.367925405502319000
+      Position.Y = 305.273529052734400000
+      Size.Width = 87.613250732421880000
+      Size.Height = 136.376373291015600000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle15: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309432983398000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703372955322270000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label22: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703372955322270000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay41: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 2.367925405502319000
+      Position.Y = 443.747802734375000000
+      Size.Width = 87.613250732421880000
+      Size.Height = 136.376708984375000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle22: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309432983398000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703372955322270000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label29: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703372955322270000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay42: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 89.981170654296880000
+      Position.Y = 443.747802734375000000
+      Size.Width = 87.613281250000000000
+      Size.Height = 136.376708984375000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle23: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309432983398000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703372955322270000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label30: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703372955322270000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay43: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 177.594406127929700000
+      Position.Y = 443.747802734375000000
+      Size.Width = 87.613357543945310000
+      Size.Height = 136.376708984375000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle24: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309909820557000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703374862670900000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label31: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703374862670900000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay44: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 265.207641601562500000
+      Position.Y = 443.747802734375000000
+      Size.Width = 87.613250732421880000
+      Size.Height = 136.376708984375000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle25: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309194564819000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703369140625000000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label32: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703369140625000000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay45: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 352.821075439453100000
+      Position.Y = 443.747802734375000000
+      Size.Width = 87.613372802734380000
+      Size.Height = 136.376708984375000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle26: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309194564819000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703369140625000000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label33: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703369140625000000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay46: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claPapayawhip
+      Position.X = 440.434204101562500000
+      Position.Y = 443.747802734375000000
+      Size.Width = 87.613403320312500000
+      Size.Height = 136.376708984375000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle27: TCircle
+        Fill.Color = claPapayawhip
+        HitTest = False
+        Position.X = 2.961309194564819000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703369140625000000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label34: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703369140625000000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay47: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claPapayawhip
+      Position.X = 528.047485351562500000
+      Position.Y = 443.747802734375000000
+      Size.Width = 87.613037109375000000
+      Size.Height = 136.376708984375000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle28: TCircle
+        Fill.Color = claPapayawhip
+        HitTest = False
+        Position.X = 2.960000038146973000
+        Position.Y = 3.415580749511719000
+        Size.Width = 22.693332672119140000
+        Size.Height = 26.186119079589840000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label35: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.693332672119140000
+          Size.Height = 26.186119079589840000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay51: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 2.367925405502319000
+      Position.Y = 582.222656250000000000
+      Size.Width = 87.613250732421880000
+      Size.Height = 136.376342773437500000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle29: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309432983398000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703372955322270000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label36: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703372955322270000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay52: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 89.981170654296880000
+      Position.Y = 582.222656250000000000
+      Size.Width = 87.613281250000000000
+      Size.Height = 136.376342773437500000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle30: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309432983398000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703372955322270000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label37: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703372955322270000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay53: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 177.594406127929700000
+      Position.Y = 582.222656250000000000
+      Size.Width = 87.613357543945310000
+      Size.Height = 136.376342773437500000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle31: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309909820557000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703374862670900000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label43: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703374862670900000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay54: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 265.207641601562500000
+      Position.Y = 582.222656250000000000
+      Size.Width = 87.613250732421880000
+      Size.Height = 136.376342773437500000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle32: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309194564819000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703369140625000000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label44: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703369140625000000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay55: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claNull
+      Position.X = 352.821075439453100000
+      Position.Y = 582.222656250000000000
+      Size.Width = 87.613372802734380000
+      Size.Height = 136.376342773437500000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle33: TCircle
+        Fill.Color = claWhite
+        HitTest = False
+        Position.X = 2.961309194564819000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703369140625000000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label45: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703369140625000000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay56: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claPapayawhip
+      Position.X = 440.434204101562500000
+      Position.Y = 582.222656250000000000
+      Size.Width = 87.613403320312500000
+      Size.Height = 136.376342773437500000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle34: TCircle
+        Fill.Color = claPapayawhip
+        HitTest = False
+        Position.X = 2.961309194564819000
+        Position.Y = 3.414777040481567000
+        Size.Width = 22.703369140625000000
+        Size.Height = 26.179960250854490000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label47: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.703369140625000000
+          Size.Height = 26.179960250854490000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+    object tileDay57: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = claPapayawhip
+      Position.X = 528.047485351562500000
+      Position.Y = 582.222656250000000000
+      Size.Width = 87.613037109375000000
+      Size.Height = 136.376342773437500000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      OnClick = tileDay11Click
+      OnMouseEnter = tileDay11MouseEnter
+      OnMouseLeave = tileDay11MouseLeave
+      object Circle35: TCircle
+        Fill.Color = claPapayawhip
+        HitTest = False
+        Position.X = 2.960000038146973000
+        Position.Y = 3.415580749511719000
+        Size.Width = 22.693332672119140000
+        Size.Height = 26.186119079589840000
+        Size.PlatformDefault = False
+        Stroke.Color = claSilver
+        object Label50: TLabel
+          Align = Client
+          StyledSettings = [Family, Size]
+          Size.Width = 22.693332672119140000
+          Size.Height = 26.186119079589840000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDarkgray
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+    end
+  end
+  object alButtons: TLayout
+    Anchors = [akTop, akRight]
+    Position.X = 632.000000000000000000
+    Position.Y = 114.000000000000000000
+    Size.Width = 612.000000000000000000
+    Size.Height = 42.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 51
+    object bNewTask: TRectangle
+      Anchors = [akTop, akRight]
+      Cursor = crHandPoint
+      Fill.Color = claWhite
+      Position.X = 231.000000000000000000
+      Size.Width = 42.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = bNewTaskClick
+      OnMouseEnter = bDateFinishMouseEnter
+      OnMouseLeave = bDateFinishMouseLeave
+      object Image1: TImage
+        MultiResBitmap.Height = 96
+        MultiResBitmap.Width = 96
+        MultiResBitmap = <
+          item
+            Width = 96
+            Height = 96
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000060000000600806000000E29877
+              38000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              03ED49444154785EED9DC98A14411445DB791E515044705670A182B811C195EE
+              FD013F45FC14977E826ED4AD03E8461CD1858203CEF3EC3D54E6A2B5A5E24561
+              BEAEAC7BE090A9D543D5BB1911D95145C49431C618638C31C618634C77CC698E
+              51E6CA7972A95C2D97CB4572A15C2079AC8FFC905FE517F959BE97AFE527F953
+              FE92216A03A0C8CBE466B94F6E97EBE55AB9462E967D8442BF94CFE513794FDE
+              908F25C110508868005CF9F3E53AB953EE9507E40E398901DC91D7E44DF950BE
+              92A19610ED2AB8F2E96E28FC0979BC39A725507C1EE36B08AA8FF0BAE8665748
+              2EC28D724BF3EFA79270FE6B002BE53679481E93FB254FA41D03681D7D2D3EF0
+              DAB8C068E1BCE65592D74F4F428B7823191FE88E8A8806B0491E9187E51EC955
+              CF93AA1D4BC61D5E3717DD77C9A04CF15FC8B7B288E8D54A53DB2D293E773F04
+              38A9C587B64BE242DC25190B6919C54403A0E96D68ECEB405B43755DA201D0FF
+              D1EF21E76600E31F7781C87931D100DA2687D1EFED336D37849C17132D22FD3D
+              FDFEA4F7FD7F423D9634866E6C7C1527E300927100C93880641C4032E3160073
+              EFD7E5C57FC8637CCDD810BA6512CCFC1D6D8E19DC9267E4597969069991E4B9
+              F11769064C49F33C3816E116908CC780641C40320E201907908C0348C60124E3
+              00927100C93880641C40320E201907908C034826FAC906A6A24F35C71A98A964
+              AAB676C692D94EA6A339CE049F553DD91C6BE0D37E4C6773AC8119D9D3CDB188
+              AE031856C0610C0B70D4028E1A6038802814FE82E4E3D735F2BDB5E17541E7AF
+              CF6340320E201907908C0348C60124E3DBD0E9747E1BEA3FC4A6336A80B3FEEF
+              80511D769F3DDB9FDF5F780C48C60124E300927100C93880641C40320E201907
+              908C0348C60124E300927100C9388064C62D00A689996A66C6712679AC762A39
+              85AEDF0F1895FFFD86CCA8F4FEFD80D9AEDF0F18371C40320E201907908C0348
+              261A00233D8B5357AD95DF63A807CB16636809FB9A005827F95B736E06500F16
+              EE46CE8B8906C00F7F27D9398220CC8076D16E2C5E391DA201F08BD8BC003937
+              03A805AB753D6BCE8B8906C0957FB7919630E9DD10AF9F3E9FAE87ED4C901A15
+              135D338EC0E88658B87BAB64B16A88CE29F505065FBA9CFBF2BCBC2C6909C5AD
+              201A0089B351010567C28BCD0BDA519FFF6B83E86B20BCFEB6E85CE9743914FF
+              AA64B13EF694F928F99A226A02E097B3990D030E7BA6506C5A0461B45B98F435
+              80B6F874398F249FD23E2799FDA4F8CCD272411677CDB585629570966A67FBAA
+              83921D95E88EFABE890FC56D0360CF98DBF28A7C2069113C16A236005A0EEBE4
+              5370B6AD626B9376131F7E665F5B40DB05310ED2157323422FF041725B5EDCF5
+              18638C31C618638C31C674CED4D46F75F27BBCD3AC0BC00000000049454E44AE
+              426082}
+            FileName = 
+              '\\ntm.grouphms.local\fs\UserFolders\zinovev\Desktop\baseline_add' +
+              '_box_black_48dp.png'
+          end>
+        Align = Client
+        Cursor = crHandPoint
+        HitTest = False
+        Opacity = 0.500000000000000000
+        Size.Width = 42.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object bLocations: TRectangle
+      Anchors = [akTop, akRight]
+      Cursor = crHandPoint
+      Fill.Color = claWhite
+      Margins.Left = 5.000000000000000000
+      Position.X = 328.000000000000000000
+      Size.Width = 42.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = bLocationsClick
+      OnMouseEnter = bDateFinishMouseEnter
+      OnMouseLeave = bDateFinishMouseLeave
+      object Image3: TImage
+        MultiResBitmap.Height = 96
+        MultiResBitmap.Width = 96
+        MultiResBitmap = <
+          item
+            Width = 96
+            Height = 96
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000060000000600806000000E29877
+              38000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0CE049444154785EEDDC778F2C471505F007262763C064138DC91921FE806F00
+              7C608204123239D8E46472CE609331DC9FD407F5AEF6BD9DA9AEEAEE95FA4857
+              D333D3DB5D75CF4D75AB676F1D3870E0C08103070E1C38B03E9E30BDEE01C642
+              9E5CF2B492A75F922795F8CEEB5D9304FF2DF9CF24FF9AC9DF4AFE3ABDFEBDE4
+              1F25FF2E71FE2EB0270228F48925CF2879DE242F28B9B7E4F9253E7F6609729E
+              3249C64FA1944B28FCB1497E5BF2EB92DF94FC711264387F17246C4D008513CA
+              8F529F5BF292929796BCACE4BEE9FDDD25CF290909BC22E37FBC24D6FE97923F
+              4DF2D3929F4CF2AB49FE5CC23B78028F4184BFDF045B13F0EC120ABFA7E44593
+              BCB084C5B37E9F13CA4F2842925044E61EF0CF49780132C81F4A7E3F096F8847
+              20E29725C84018E236C1D604BCB88485BFB2E48D93B07AC4B0F6A7965034A527
+              EEF318E3F63A072B8E241F8414F11F1984377C7D929F9720E377259B604D02DC
+              8B50A630F2AC128A7F4DC9FD256F980429B1F65EE343CAA393FCAC2404FCB0E4
+              47D367BC80084FABE5877925311AEEA58211525E57F28E99BCA5E41525122E72
+              587D2CBD175CCB185CDB3DDC4BF8E36DDEFB5ED812C256C35A0464F20860E194
+              FEFE927795BCBDE44D2514C22B28C8B92394CFFBDCC3BD781F02BCF739E5CB11
+              7202ACE2056B1060F214AFAA116ADE5612AB17EF255B56682CB1FA9ECA0F725D
+              F7C89A02DC57AE89C27DE73C840C2761340199B4B251827D6FC97BA6E35797A8
+              F5C57A93DE02191B2F30868C45D2E60D12F9508C26C064B8B732F2DD251F985E
+              B9BFDADEE26A2BE543F281F1A538408A05DB2F4A42C0304F184D80F0C2D2DF5C
+              22DE7B158A4C94DB9BEC5E40C931061EA01A12AE90E0FD108C26408D4FE9ACDE
+              ABEAC7428BF2DD7B2F041807E5330CE3B276A078AB65A5AB55F5108C2080D570
+              6D2E4DE1EF2C99871DF1764FCA871010AFA478F3C86ADA426DC8784710104B12
+              579597428FAA477B21C96ECFB068A37C73D0D04BEB027CD7351FB8516F503045
+              53B8782F07BCB624A167EF500919B79069956EDC3EE3D1DDF535C203D4F456B5
+              0F94BCB5E4F5257281C1F7706316C812D3CD744CC0F597DEC3DF1B2B43D2C413
+              7EE401F71592E4876E184100CB57E70B3D948F0CF57E2F50B60A258992504E14
+              D78380886E29A5BB8716857CD0B573DA9B0083E6B262FEFB4A5E55A214154F5B
+              106BA7004ACF864B2A13C714447C7FD9238273490901CA4FD704CAB736404A37
+              9C3BB0DBC175904974343F54F2C112B1340DAF16502C25EBCF983CA188EC7825
+              21BAAF7B10DEA6DA22596FB4E61E3B69EEF983928F967CA4E4FB25EE9B7B2F42
+              2F0F40404ACF9797083FDA0E9461A9DF7A1F4A1687F5ED1F2A79B0E433255F2E
+              F962C9574BB495BF51A2B5FCE312AB58A1281557C6D50AD7307E6DEBEF9620A5
+              1B7A1160C2DA0A2C50BDAFF61786BC778F733C8D6525E428FF1E29F966C9C325
+              48A0049B2AB61B7D9F3D5FA14158921BDC2FF9202D86E09CB138376533CB776F
+              1E0897C35C137A1220D4A4F5A0FE9780E3FAE74C9AF2C55ED6FFED92CF977CBA
+              E47B2589C194AC0A0A727D9FF94ED852BD20D3CE9A71414B9276BEEB32045EC6
+              C35C97812C0E43BD0860257AEC7AFD6A67CA57FBB3BE73276C62944FD15F29F9
+              64C9274A289F85238742E6938FD7F84E8216B67888F0976D4FE3305F249C0AE7
+              12D63E0F714876AFC5049C33983BC1E4285BDCE5EE2D8A0F543A420A8B33616D
+              614A4DA54319574DDCE748A01CE70B15C293ED4621CB7B7F7F2ECC839E78B3B9
+              09B54BE677013D0990ECAC180DD0F1120228EE3B25AC98D553ECA9D686088A4E
+              DD8E006422D2672D30175E6E7E64C9FC2EA01701100232C056C403243DD58F12
+              1401B7B3FCCB4838E209C298C74F54307282CF5AD16B7E17D0D3035C2B259BE3
+              560BA13CE186E5CB052D6123A070048ADB12F33C719F0373312F8A274BE67701
+              3D3D20049025D7ED4D40F201025CBB15E614027A152F5D09E0FA0913A7C6EBEB
+              D0E35AB9468F31F5BACEFFD18B00834ADC258E5B076A4C2A0E159578CBA35AC1
+              5A1505D602AED56AB9E6227CC94FE47219DC8C9E1E605073025AD193007FAB74
+              448035C192F99A9FDA3F0474414F0F10ABC5598284560BA17C2D6D2D0D0FEB52
+              A084776AD2739E7951BE5688EEAC8598BE94FABD05E6624EE6262F2D99DF05F4
+              24C0A00C4ED25B4A8055B595B46E2AEB35CE5349708E5013027445B5C591EADA
+              2D301706667EBB2680F2970E9095A6A7A4B3CA72B3FA0C1157616EF942577A40
+              48E4019E4995135A90F9C5C391D185805EE594C9B32ED7A330D66B4BB2C5E24C
+              CCF528327D1FD74580E3C4DFB90272BEFBB9BF7E94471FB5C53506EDCAF92E35
+              FCA9700FA22CD689D59BD2D6E896887B7A804159F410C7AD83A348713F5EE0E1
+              5DBB6B9E2BD5714D1D7ED9137CCEF2852F5BA29EC2D312E745AE878073E76B0E
+              4A6BCA36A7EE21A897074026C7D5298B0724E99D33718A35AE840BC72A189F13
+              4ACEAF66C47544513A45139D58A4913CF2AEA23286CBA45D078AE68516723681
+              7880AEECA96D916BD18B804CCCC058A91020F1B166F7F0DA0A44B060D79D3FE6
+              E215C9C4362885B3784F5F7B9FB89FE6600B58BBD6B6869E0D211B435D7F4D73
+              AE45DC09B15016F8E1493C7E4E0912620B104AE68B3C4AD1DB21BE63D9084610
+              41168513DFB5587E60C74DCCD74DFD58C9C7A7E36EE81982805B2AFD6C82A4EE
+              668142400B282E0AA65071DC35BD0A4B88158A48888EC59BDB12E583B6B80D79
+              AD713B72BAAA725C3718606F4856D950D10A569AF640C8400042C5FF08E5C7F2
+              9DB744E97318BB39988B39995B578C2040981027598EC10B193D1002289995B3
+              7A21C72BCB4FDBA287F27932317673B01DB9743FE14A8C2480BB86806E55C30A
+              30D6949D3674587EF6A397B4C6AFC42802540EF673253104C4A26E0209C61802
+              C4FB1B4780C18B9DBC20D26343642D503265F35E49983121C27AA0FBF84710C0
+              854DC2F23D9BE2C362E8005034E5ABF985516450BC7975C74802B282B4B18E80
+              254F25AC09E316724280F506028684D0DEEB80390C56B9981E8CF541DA02BDCA
+              C45E30D62CF658FFD74ABE54C270E4B1AEB5FF1C233C600EEE6B122694FFC730
+              C4923A80F28D2F4FD5792CD2EB30E5C36802246393B092148AF25C675C7A2F30
+              9679D99987B97803528661640882841A446B4FE85CA6B3B9748FB627E4AC180A
+              6F15FF2D249132D463471360E0B176CAB76AA578E278F4FD4F05AFF4E8B94D17
+              BF391036597FF7BAFF32D62020E59B249C669A6384A44DBD55524EE215E729DE
+              8F3EC47E8937DDD6A158CB022998B22DD2DC53034DAB3ACDB3AD4291B50AE55B
+              70D96C51F988FD7281727458E809D69A384B93DCBE5522BEAAB34D1E21C3ADEC
+              0E60FD2A35162FF1AAFBBDFA6C9571AD1D834D4AD7920764938667F86C0B88F3
+              FAFC12AFDF9AB17EA167B8E5076B86204080B0A377CFFB285F3ED0CFDF0292AD
+              D0F385E99827F0CCD5B0A60750BE5014C53BD6D7978C3DBD168C4EC8290C843F
+              21F173259F2D9107C47E9FAF86B54310B82725ABB1B5256C5D128AF1DDE8BCE4
+              BE56BBC28FCA47E9A9F2D136F7DD2AB13FD88200134CE927FC78FE538FC85894
+              A9294D4721BB5C12AED84FFC1A679315FA16049860DAD5D954178A285E6EC84A
+              B937104F7468295CD2559149BCAAB2D5950F5B103047942DEEA63AE215D09304
+              8AA560C4B37E6147DC4784F7BD1E1C381B5B12106BE309142019E7612ACAEF9D
+              0B285F98F19C8FC4EBF7C78E85C25513EF1C5B7B0045234268F08403EBCF987A
+              36EB58BF30C3E2255EA5A70A08F1885935F1CEB13501C0FA5292CA03944EF92A
+              A35EE363F93A9D5A0D9EF1D478D3FD4CD5B37AEC0FB626C0E45920B140F3DE98
+              7883F6354278496B3E703D04AB7C58BDFF39E1194F7B1392B1EF36533EECC103
+              20319FA53A561D251710E4B4404F27A187E50B3F89FBAB34DBAEC35E08A0085E
+              906A84F25544146F6DD0DA2BB2BA55662A37295FE98910CA17F636C75E0800E1
+              8062784236F38520CA9F97A6E44E485813DFED6A517AFECF50FEDBC92E940F7B
+              2220C8987883630B35DE00C8B9AE32A27C21468C67F9122F61F994EFFBDD608F
+              04B0604953675265E4578E7EF942F13CE2BA31B37C8AF61C9284EB5F9CE976CA
+              07BEDB3CEECFB14702206124AD89002142D355614858211A6DC20DE513C7AA1E
+              DFED4AF9B05702280A092C1E111E0D4184A65D3672E624385F0E71AE5023E47C
+              AA4497D37B21090E024E0445B1D8D4F0FAF41666F691E50410924282F3D3D290
+              78851DAD068BADD57BFCE760AF0404944CB924BF80E119143F7FC4D1FA417B59
+              C563C1A5C5ACFCE43994EF6F7689BD1340F11448C1949FF2111976D18428E728
+              5FFDEF504DB63CD9A0CBE973CA77CE2E7113084872E50D627CACDF628D825537
+              165C56BAAA1D71DF131842CF2E13EF1C7B272048A849192921AB86283E3F23B5
+              D8CA232FF206AFD9B5F2E1A610409114CAAABD7ABA4EF8A16C4F3378B484F2BD
+              B27EE7EC36EECF715308002450AA5064DCC29138AFC6478457BFC21196766FF9
+              415CFB2641F8C9AFE2011144094A58FF8103070E1C3870E0C08103076E875BB7
+              FE0784E5B64945BB80DD0000000049454E44AE426082}
+            FileName = 'Y:\TimesheetSolo\icons\baseline_room_black_18dp.png'
+          end>
+        Align = Client
+        Cursor = crHandPoint
+        HitTest = False
+        Opacity = 0.500000000000000000
+        Size.Width = 42.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object bBrigada: TRectangle
+      Anchors = [akTop, akRight]
+      Cursor = crHandPoint
+      Fill.Color = claWhite
+      Margins.Left = 15.000000000000000000
+      Position.X = 284.000000000000000000
+      Size.Width = 42.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = bBrigadaClick
+      OnMouseEnter = bDateFinishMouseEnter
+      OnMouseLeave = bDateFinishMouseLeave
+      object Image4: TImage
+        MultiResBitmap.Height = 96
+        MultiResBitmap.Width = 96
+        MultiResBitmap = <
+          item
+            Width = 96
+            Height = 96
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000060000000600806000000E29877
+              38000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              071849444154785EEDDBD7AA2C5510C6F163CE39E79C03663180281EBDF11D7C
+              361F43BCF04611110C08A262CE39E75C3FE875187AA667BA6756BBF639D41F3E
+              A667F69EAE5E55B56A85EED99724499224499224499224499224499224499224
+              49321F8775AF73C2C6D1A1133B9D103A367464C8DFFE09FD15FA3DF45BE8974E
+              BF86FE0CED4A6BFB6B993B00CE4F6784AE58D03921CE3822F447E8C7D0D7A14F
+              431F843E0C7D14FA21B40BADED6F64AE001C1ED2B89342E7852E0B5D17BA3A34
+              C6016F875E0F7184CF65E4BF9DC6D0DAFE68E60AC051A1E342D784F6876E0D5D
+              1C3A2B34A604C8BE57432F869E0F718A72E07FC7D0DAFE6864C01C9C12926977
+              861E0EDD11BA34541C704C8893487DE6109FFBDE99A1534332D4DF3946967AA5
+              31B4B63F9AB902705148E63D18BA2174764843958631B82E0E3839C419DE7F16
+              FA363486D6F647533B0032EBF4D08DA1474232EFDC90EC1ADB78B82E25C4F7D4
+              71254219E0006560A814B4B63F99DA01D07883DDDDA17B43978774EF298D5FA4
+              38420930407E1F323D1C2A05ADED4F66DB0B1B42B7BD3264F09379DE1BECB6C5
+              7765A07339AFD98CAC1CA2B5FDC9D40E806CB930A4063BAE85461B5465F43A07
+              B4B63F99DA01D0DD650B39AE05675ED0699D635BDB9F4CED0018044DE3AC3C1D
+              D7C2B99CD3B9D79DB7B5FDC9D40E809AA9EEAA9BBBD4DE3EAE53466BFCBA6B6E
+              6D7F32B503E07CE6DB53E6DC63B00560256A3AB86E3BA0B5FDC9D40E808BFBBB
+              53CD0BD5F09F433F75C743B4B63F99DA0170712EB2F6859A877FD3C9F110ADED
+              4FA676006C667DDEC9712DC69EB7B5FDC9D40E806EFA4EC876AEE35A587D963D
+              7AC743B4B63F99DA01B0AFFE46C85EBAEEBAEB16AEEFBB29621B8053DF0FAD73
+              6C6BFB93A9BD17A4B1F6D3CD42AC1C6DFF9A0E6E6B476365DECBA1A7431CEBFC
+              06D955B4B63F993902A08B6AB48D317367C7F6D5F5B6B13D4E030D769F845E0A
+              B929E2E688F7EB1ADFDAFE646A07009CE022ED1CCA208B228B2359C91163D078
+              5BBFAF859E0C3D175206C60C80ADED4F628E00987F9B02AA9DB2D16D3F0E295A
+              ACCBE596A8F71AAD867F15526B35FE85D033A1B742BA7EF9DE3A5ADB9FC41C01
+              002794014C0DFD38A40132C85EBABFB34DCA82FF95716E7ABC127A36F45448E6
+              95818FF3C62EAE5ADB1F4DC980B9707EB23B7973C89EBAA714DC2254A36DED2A
+              0BA5CBABB1B2EDCD9001EFCB90866F9B79ADED6F64EE00800D83A11BDE6AB1ED
+              5C9B5A6AB201D2DF3550162A1956B14A01956CDD25F35ADB4F92244992244996
+              A8390D752E0B1BF36AD3BC720FD5FB4595C5CF2ACA74D04AD6ABF9B957D3C122
+              EFCDCDB7A14C473D72688BC2547491B9ED2F512B00CE43E6D8A7853C3DE01170
+              AF1A4C3ED7E8B2F85985069A7F5BC1DACBF92E6481E411F12FBA57EFB7DD93B1
+              00BB29747DC8C35B9E7458646EFB4B6C1300DFB180914DC7872C6E886339DA0A
+              D336F01C01B04FE3B86CB415D966F0DD4DB7214B003CAEEEF1455BD6AE4B5B30
+              B7FD25A606A0643A4772B067EECB237B9784385C50F484394A908672905B83F6
+              68DE0DB903E64E95CF38631DA5045D15BA2F745748306C4F606EFB4B8C0D805A
+              29CB4B26CB248F007AE6BE044030FC8D93C7EEBB4F856338A2EC58160738B6E9
+              264B652C27D956E0BC55481E7B431EE07D34E481DE753DB350CBFE0164E31838
+              5E77F5B8B7C7BE3D7B2F836E0BF9DC665719D44A2F9903E715DC92C9E787FCEC
+              E8DA507920579B349C03386B150651658443CB8F3104A094A2216AD93FC05000
+              1851E719F1A0AB418BF37559B5531D95FD0CFA1F25A76C6CCDE57C1407C8540E
+              E33CBD918C3BAE8573A8F4446585A317F15EB9100849E3FA9DC3EC685D1B6AD9
+              3FC05000389301D9FD5048D6DF1FD26D395DC63030A7B3A7A0A11CC9014A63F9
+              3D1847C8743B9C1CD1DFD5F49901573BB495239D8BA6B0ADFDA500B8109F99C9
+              E85232FE8190EC57EBD5CEC56CDF2B708084300130B53416C9664E917DB4AA24
+              F85CBDE62801280FDF3AD714B6B5BF1400EF7DC92CE1B1905A6F802A8E9F9A19
+              ADD00E3D584672AA36B9A76B0AD94766EAD1A504292BBEBB0BA3EDF703E04274
+              A1DB436607A668656A79B0381FDA25AB8B13747D0E28032F15FC4D7271BCCCD5
+              7EC7BB30DA7E3F00E6C3F7844ABD97F97BA9D64F45D22829B2BC2C962CAED4E4
+              45FC8F20281F7ABFFA5D838DF6FB596D2AA9E4F869A78BF0E58329F3FB4830BD
+              57226917E7EAE57D2CB8CCEDDD03DE38759CC046FB7DE7CA82597E8AD3984DED
+              326F3718CBCCC5F2548B41FBFD00182CCC80C8F1A1827A6CFA4C8EFB70BAE928
+              6D5CBD6EC1A0FD7E00741911A2FEF87030A3942AA9A5ACF6293D80E6E80183F6
+              FB01F0DE1C7FAFCDF377A5D462D2B63E0649B59FAAEDF52F3068BF1F80E47F26
+              03D0980C406332008DC900342603D0980C4063FA73FD5B428F77AF87227E6CF7
+              44F7BA8AB9DBBF64BF1F00DBB06E35EEBA1DBB57B113F95EF7BA8AB9DBBFC97E
+              9224499224499224499224499224499224499224493DF6EDFB0F12C676F71ED8
+              F4C50000000049454E44AE426082}
+            FileName = 
+              '\\ntm.grouphms.local\fs\UserFolders\zinovev\Desktop\baseline_gro' +
+              'up_black_48dp.png'
+          end>
+        Align = Client
+        Cursor = crHandPoint
+        HitTest = False
+        Opacity = 0.500000000000000000
+        Size.Width = 42.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object bOpenFile: TRectangle
+      Anchors = [akTop, akRight]
+      Cursor = crHandPoint
+      Fill.Color = claWhite
+      Margins.Left = 15.000000000000000000
+      Position.X = 469.000000000000000000
+      Size.Width = 42.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = bOpenFileClick
+      OnMouseEnter = bDateFinishMouseEnter
+      OnMouseLeave = bDateFinishMouseLeave
+      object Image2: TImage
+        MultiResBitmap.Height = 96
+        MultiResBitmap.Width = 96
+        MultiResBitmap = <
+          item
+            Width = 96
+            Height = 96
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000060000000600806000000E29877
+              38000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01F349444154785EEDDD214E04411406E18520390602C911B811874022104824
+              47406048901C01894190700004025E2743B2218FDD61674875F7D497FC19DBBD
+              B5806356922449923483A3D879EC31F61CFB8477165B8483D845EC23967D10E4
+              BA8F503EFCBB5876F95AD67584CB5876E9DAD66584E3588DBF767E5B77115AF9
+              F6AFAFAB084FB1EC92D4C67E21BA89F01ECB2E48AD585484EC62E4BE2D264276
+              2972EB161121BB10B99FBA8F905D865CA6EB08D945C8FDA6DB08D925C86DD265
+              84EC02E4B6E92E42767872637415213B38B9B1BA89901D9ADC5F7411213B30B9
+              BF6A3E42765872BB683A42765072BB6A3642764872533419213B20B9A99A8B90
+              1D8EDC1C9A8A901D8CDC5CC646C065872237A7311170D9A1C8CD6D5B045C7628
+              72FF61538449F686E714930FD1B8499FE1FEF014C4003003C00C003300CC0030
+              03C00C003300CC003003C00C003300CC003003C00C003300CC003003C00C0033
+              00CC003003C00C003300CC003003C00C003300CC003003C00C003300CC003003
+              C00C003300CC003003C00C003300CC003003C00C30CDCBF0DCD91C015E87E712
+              5511E07E782E5115773F8DFDFC1F3A4B58797557796D63156E63D9217B5E796D
+              63350E63B5BDCEEA3FF7102BAF6FAC4A89B0849F84AB58751FFEBAF237E126F6
+              16CB2ED0E2CA6B79AF632731499224499A60B5FA0295CC056752445DA2000000
+              0049454E44AE426082}
+            FileName = 
+              '\\ntm.grouphms.local\fs\UserFolders\zinovev\Desktop\baseline_ins' +
+              'ert_drive_file_black_48dp.png'
+          end>
+        Align = Client
+        HitTest = False
+        Opacity = 0.500000000000000000
+        Size.Width = 42.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object bSaveData: TRectangle
+      Anchors = [akTop, akRight]
+      Cursor = crHandPoint
+      Fill.Color = claWhite
+      Margins.Left = 5.000000000000000000
+      Position.X = 565.457031250000000000
+      Size.Width = 42.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = bSaveDataClick
+      OnMouseEnter = bDateFinishMouseEnter
+      OnMouseLeave = bDateFinishMouseLeave
+      object iSave: TImage
+        MultiResBitmap.Height = 96
+        MultiResBitmap.Width = 96
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Width = 40
+            Height = 40
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000280000002808060000008CFEB8
+              6D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01E4494441545847ED983D4EC4301085170E4145498544C50180920340072D15
+              27A0001A0E40470B1DF4B40B6740A2A145147008788F78566363279E103B11E2
+              939E26B1E3CDCBF82F9BD93F7F9D251735EBD04A73589477E8B939CC670DFAAC
+              A84DC8C436C48631587EDC1C7ABC40FAA6A1CEA0185710EB0FBECF122CBB98CB
+              938B9A5717AD1C4177D035947A08B3C1A1D987CEA153289AC9B10D1266EF0262
+              267759A09982417202DD40F7105791055331480E5DF49638ABC10D1735AB2E16
+              C162F00DBA84C265846B6731C29D84EBE01C8AED30ACEBC3838B39F08177A064
+              9BB685BA06BCB79788294D9228395DCC69CF05B504B7907E61E8D5C534CCB212
+              E26F6B58366A179B7BA2A6419AE3CB81C9642D83628E63CE64B286416D6ECF45
+              732685A127090D119AD2E53C27522FB0CE9B2421431A4C991389490DCBAB18EC
+              32270A4DB2ACB8C15C73226D92E7450D5ACD89C424DB1733D8D79C484C7A0673
+              F6629EB73E1590A5847F7E74DB2DA8AD2DF7DCC7E67041F21F1EE99341C95C8C
+              AEB6AC6F6588853AD6A59D374EC0B65EC6730C7EB8380A396390748DC1181C5F
+              FCADAE31C8F73F8119ACFACA6F1D832C3377F1A88406E54350F8A45659278964
+              9A781FA3C2B14686FA80691983724DAF8F9ABFC13A067F10CBE090B4EE0A8E9C
+              6BA6CA6CF605CD254B3F49583A730000000049454E44AE426082}
+            FileName = 
+              '\\ntm.grouphms.local\fs\UserFolders\zinovev\Downloads\save (1).p' +
+              'ng'
+          end>
+        Align = Client
+        Cursor = crHandPoint
+        HitTest = False
+        Opacity = 0.500000000000000000
+        Size.Width = 42.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object iSaveOk: TImage
+        MultiResBitmap.Height = 96
+        MultiResBitmap.Width = 96
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Width = 40
+            Height = 40
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000280000002808060000008CFEB8
+              6D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              026B494441545847ED98BF4EEB3014877F29E21598186141626340502418EF03
+              C0822E23AD187801062E0B0F0012BD6184ADECAC54973F626142628111DDE1F2
+              08E8269C138E83D338ADDD3A29427C9295633751BE1E3BB6137CF3D509E498D2
+              B8C50C5E3121D5F218C7BF701E0F522B2423B87583A928C6A3544B278830D75A
+              C29D548D64041B97580E6AB8F8BD98CF6CF31A711063BB55C7A134256CFEC163
+              6D0C5352CD1147D80B97F04BAA298D2B8441804D0A37E87EA7EFAD796A72B482
+              B27B2F610AC93D4BE8445847238E7146E1092526F707144E82BE21C935CE30F5
+              DA2EF5D04F69CE30524186BB3F06F6293C695EE2C77BEB07231764C245ECD0F0
+              39259BF36416D1F81482CC711D1B49D035C53909D602CC4A9812FDC7A484A560
+              2D18017FE300073CDDE8A5D714E3036B419A54D7E9895B712DA639706078A2E6
+              AC48B572F8DEEC20D5844FF39014D177A993CDC39A54FD328EB6BE61E00CCAB0
+              E848537F41BAE8820E99B47BA443F75A91D828586917D3E6C0B9272A1364B9D6
+              02CE5C252B115472B4C56ABB4A962EA8CB51BCEA2A59AA60B79CB4E99247C989
+              3D284DD024A7D025A5A99052047BC92994A4540BF12E6823A7B091F42AE822A7
+              D025F9FAA451C39BE020720A25691A935E04955CF30ABBB4177AA0E56A8F0BFD
+              942E590574D273E93A7EBBD3973966E8B558C9493583C53A9E598B4D0C9D417A
+              B76DF322DF5558CC19BED6793F48022F128E84BE82F2726DDCCEF7283CFEBCD0
+              770C0E8374B5F518E42EE63F38B2FDE0206432E5F1F35B9219DB0CEAE7D1BBF7
+              F4D1029E3866725DE9EB03267793AD60FAE41A3E6A7A196B45B88E4113A50AF2
+              CA20612194697F2FF6D503BC01258647037D196EA70000000049454E44AE4260
+              82}
+            FileName = '\\ntm.grouphms.local\fs\UserFolders\zinovev\Downloads\save.png'
+          end>
+        Align = Client
+        Cursor = crHandPoint
+        HitTest = False
+        Opacity = 0.000000000000000000
+        Size.Width = 42.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object bSettings: TRectangle
+      Anchors = [akTop, akRight]
+      Cursor = crHandPoint
+      Fill.Color = claWhite
+      Margins.Left = 5.000000000000000000
+      Position.X = 372.000000000000000000
+      Size.Width = 42.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = bSettingsClick
+      OnMouseEnter = bDateFinishMouseEnter
+      OnMouseLeave = bDateFinishMouseLeave
+      object Image6: TImage
+        MultiResBitmap.Height = 96
+        MultiResBitmap.Width = 96
+        MultiResBitmap = <
+          item
+            Width = 96
+            Height = 96
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000060000000600806000000E29877
+              38000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0E5A49444154785EEDDD478F254B1105E0C17BEFBD07E1BD131E241042B063C9
+              8A1FC68E1D62C302EF06EFBDF7DE7BEFE393FAA0A235B76F6656564FF1E61EE9
+              E8DED7D39515192E23A3B2FA5D39E184134E38E184134E38E184CBC7CDCE3EF7
+              8A9B176F79F6D98B7F17FF55FCE7D9E72EB17703DCBA78C7B3CF1E503EFEADF8
+              C7E2DF8BBBC45E0D70BBE23D8AF72EDEAF78A7620F6280DF167F58FCF9D9F7BF
+              147785BD1AE081C567179F5A7C6291217AC10094FFD1E2A78B9F2FFEACB82BEC
+              D5008F2FBEB6F8E2E2E38AF72A8EE007C58F14DF5B7C5BF11BC55D616471BB0C
+              C8FB8F3CA3EFA39835CE66D89B01C873ABE21D8AD2CE3D8BB7298EE2B6456B08
+              FABE3BECCD00B7285A801980C218634D9A74BD05FCCE67DF77873D1A80F2537A
+              926F8D015CCF908C8AA2695773DE9B01E2B16803B6168C878C290A8CBBAB48D8
+              A301EE529C99329606C019869D86BD198072288911667AAA71A5B59B7404F034
+              134DBE95CF7BC153EF5A9C6D8044D6E8B8290E46E77510B30C905C6B91D342B8
+              7BB1B77F0394C300773BFB3E0BC632A6B147C63517731A9DD741ACB526A51BC3
+              C41E517C6CD1CEF5214513E671AA9A089D1E4D908831B10715ED809F5E34CEFD
+              8BAE9D81BF16FF5CD415757F8E87912732F919996E5F2493FDC3438B8F2E9AD7
+              838BE6CAD134F834FB568102D780F2299770AF293EA548F126A401F6BDE2D7CF
+              F8CDA25E0C65FCA308147C9FA29D6AFA3EC6D20BB216ACD9842D41F9BF2E6A4D
+              7CB5F8B9E2C78B5A13BF2AFA77101D1CC226904351FC638AE46110ADED9F143F
+              557C4BD1584B0376636D0450202FA1BC57159F537C78F101458A958E527D5800
+              4544165986E2514F2E3EABF8DCE2938A891E9E380B149BFB1B3B8B3103FBB440
+              93973C14CE119E56148DCF288A4CF31295690C7EBFF89B22678A4375636D0410
+              E899C517165F517C54318A13A23CEBF767D40EFE71F15B45D1211234D918EF61
+              458AA1081BA799CA5F82A2B4A47F57FC65912C9F298A8218812C3E19298E1399
+              78BAB4F3C5E29B8B578B5F2EFEA238845103C8953C47AE7E75F10545DE4BF06B
+              81E0C2D744BF5B24300350FA9A6EE7289236A4C42F153907039023799E6E0EE9
+              87F77FB8F8BEE2BB8AD2ABF975A7A2D11424EFF30C06E0F9C2F5A20A239349B8
+              E741CB7D8BBC6C2B8F3F8428963CD2521A769A7FD22ABD1C523EF877F3105159
+              DB2CF0DD8F3E470D406839518EE4FD162C46B94868FF46D11639C253BCC95EB6
+              F283C84306B29049AA39A67CF03BAE938E2CECD602E9B6BB2A1A35006F797ED1
+              C269D1924A8E097D5382B94AC3146E4DF199C79E5DE835403C4679F6D2A20890
+              F779F58D841840CEA743EB9992DB1A97F5A509BD06A07CDEAF7464006B809F8D
+              46D2FF3BCC3BA94845A5B2F2BDB92CED511CAB5BA4543BEA76E5A77AFF7A289F
+              87A93A4C34BB5BF25D761A3477BBE6A420E5B612F74FC526B42A2F93B32D7F79
+              F17945AD0337BF1EA07C8B9ED0B7DF600029012F13313827A04B0EA14415094D
+              6835801DA385F609450610052AA1AD2B188AB6C8A9326CE2E4D96F17957EDA1B
+              C2DEBE4225F2A3A272501EE6814BA36C1919714E151487F84E910C4D6569AB60
+              5A0A76B94A4EC7456CD5D5D05BA71F8A14DA94EE5C0FC53384BE8EC9F2387348
+              79AB5FA36F4356EB94B6064799D5533A04727014E78FDE58FC4051241CAD8A5A
+              15C8FB35CCF444B2E3DD2ADC79AEF4C29B79B8C6D9278A1F2B9AE0178A5F2BF2
+              341161A222007F5AE47D7F2852082E8DB455C4D2857D90FB7216B27392A36B41
+              AB016C54E47C1B2EDE2522B600E5234552780E54D9F6A7876492C9FB4B08773F
+              B710BA5EA7937118C13C45828A654B68B1E890720CB23A977A215A0D20BC1941
+              88AB7CB4215CDB7A7D2B78BE14C3CBAF1629FEB345DEAEBAA0CC433D173FE3ED
+              C610FA8CE053850276BAE6B14524B8877B7112AD6AA9D2424C960BD1AA40DE65
+              30A19CAEA50AC8C233137AED8E126A727DA828D5503CA58F40444805A2266962
+              8B48A07C11F7C9E2078BE4168947E5EE3100EFF36922F9747D3CAA7541BF1678
+              AE703589771719C12484F4A8F2C1B81461C126330368006A1C927F8DCC224E8E
+              E734D28E073CA858107DEE7DAD48FD1FF4A4101330110B0C6681311929094627
+              44F9528F74A3BD2B05F1DA35CA5F82327829F9EC656C285571A3A98862C9A6F4
+              9526DF5314B5E4E73452D251E5438F010C68603579BCCAC4E2FD3E4DCAF75E43
+              A85C3CE4B0F0A2C57396F2C1580C4A3E0F91384DD6841E7042698D0E543B1EE6
+              58AB78BE07339CA859F9D0638025283E4F95ACF6A2C1A42CD4C614DE3D5042AA
+              789CE5B7B13A5A3D0CC27E00AD5D0C613DEB01E533A44DE0DB8BEF2C2A8DC9DC
+              94F3CF63D4006E44496E2AB419441AE2513D8B334FE155BCE91D4593B1689AE8
+              16305FF7E428DAE8879EE01D82B9AA70EC4BAC55E49586860B85510304946771
+              1676683C8B5CAB67B9DE753C8A013C1ECC82B915185739AD956ED7DC03916A8D
+              7A7F51CAB41692B739E59C476FAA380F9E2F242D3C84531130482B788DF42592
+              7891A832E656606C1166CD5156BB578FF2C86A9EF625D2AFFF1EF2FC60AD0102
+              9E2FEDC8AF3D51C51BA3FCADD2CE128938CAA73CDEDBA3C014186B4BD8FF6296
+              0108B3AC825A9114B675DA09783B85F37C06C79E0830370E364B6F530D10AFE8
+              3180C923E5F728622D96F7ECB96F0C803DF33C885906189D90FBDB9DE234AFBA
+              00719444ABCF9EFB669ED3A275A60112D63D06A004E5ABB2D0F7ADC100EE63AD
+              522E2B9B7BD62C8A4FEA9A6284B50620BC49D884293F9D2CEB79F8E17A8D3146
+              C8CEB44721BDA07CCD386532036417DF0A858679DAC4719AD591BBD600045053
+              3B4FE910ABA75026D80ACA663093613C6319732B30704EE48D7472C9E73082F3
+              508E30721A461CC6A8B75112457B48E3F1A45312FEB48007363D422527DB61AA
+              AF7D2A4995885BC083A49C7CF6748F427B405646343FE52C4845D2EFD0DA306A
+              00CAA76C4A7F65D1B3625DC6E4F2DE0A41198A14EFEF3BD82C6D010EF39222B9
+              7DEF7D2EC0009C4FCAF4608A0195D1E44E47A00B3D06A0547953F8EAA3E44CBF
+              C9785E4CA811E583859B2C8C2012741B873CEA00A439CAE2F52F2B8A02EB56EF
+              C2CF00AEA107D1C48064F7739FF618D96734A1D500948AF2A7973078117A23C6
+              4967F934BF330272980CE1F328D16E95416680F29DE2E32C9C46B4320AC58DC0
+              3C5D1B87D4D413191C86ECCDDDDC560350308B9B84BF606212BC8941DC788DF2
+              811CEEC18B84320F4AAB604D2450724E749059D49A83B98C2A1F62804496E88F
+              01F488F4C79AE46E35809B7891C224BC0D63126EDA7A7D2B2C6E14261A188027
+              AD89046946BAE4F9528FB771CCA537F51C429CCE78E4F6C9000A8926B97B0C40
+              E9CA4C6967AB33A12660214F343088FBE4D3CFC26BC1EFA952C8ABD5CC69783D
+              52BE9FB9C79A683D0F6319934352B84EA9346A1D3B5ACDB52A9127C99B5ECAC0
+              D67EFF08843603C8AB14667FA0B4B53EA832F0D02247F9AEE32C22D5096EEF31
+              4897790E3C53F9E7E1E9E0578ACE0569D14F33808965B364D3C5C34C64F66432
+              667237F22CB4E071048AA4648B5F76A50CC541BCB7E0FCAA3A5FB1205A95CBE4
+              DE52F99CC3DA45F19E0F7BC02415F9D9856815C8E44DDCA9E8D717857436245B
+              42CF65F9E813F3FCC0A768300711C3489CC4A77D0A63A5BDB1B59C3C9DC29D65
+              7A43D1C102721FDD17B41A405AE041F2E8EB8AC2DB46A6A7ED3003528F3C1BA3
+              9C370047518D6CB13E5D048F269D077234E54D458F569BD023A8928A1178934F
+              E1CFCB2E1394CD19289967C7EBE3E9E4F2EFAD8E350B8ED17856EC549C0306D3
+              F70190CA435A90A31DFD4E3D8D9781188013300239305E7FD9CA1781D2A13341
+              0E153827A4FAA1A326F486AA28605D93B6E83180EF3CEF4604E53BA69233A1BC
+              3F9BC726F41A20AB3D8FA37C2940A52205DC48C85EC42990BCBB600D5086362B
+              1F7A0D10B88E3118422428F36E2450BE34E338FA5B8B4EF4D97C1D2D3BCF63D4
+              00E066D24FF605C63A365E7A3C987339AEB9AC35E43C28513525AD9285F7B6AC
+              696457F9E430B1AAC7185DDE0FA306E001729D08C84E3595C845A07861CB5BD4
+              CDC6700D435E0F50BEBC4D26B29897391D5BD3EC722DB8F9BBD40EE5CA08AEEF
+              C2A801589AF7B85E0DAEFEB63B5D96A504E2291EAE50B85DA233FF72A5EDBA89
+              E7FC3FC1799DF154315B5532EE45D136741EFC90C3024A2E46208F8555375384
+              FBFDA55C99B7B9389E68D76B1EAEE9563E8C1A60095ECD63BC3BE6D90081096A
+              A2C25489465067E885AB3708FDB797EFE4D044820E2892E9580A1885FB3896A8
+              55903F3573B56821258FF39E5E12619CD4F2229493318034C5380CE7DD35AF23
+              71303F1FC25A03503403108EF7F3180A159226E9450B428626C8633CF54AC7D0
+              848CC1B3D4D5C68CD7CD7010E0CDE4D2A914811CC08B15D208396DA4C8CC6144
+              01A5924B8A4272329C93D0DE8661308E643C720F793FAC0DF5284A49AAE9A529
+              260A1862F93F4E48EF862208ECDF41BEB576A4C9A68BE9F9B2B6B7F166755D19
+              DB82C909E46D5E4EC9649226C9043678D62329353D253290CDC327CEC158DE07
+              4086A1FCEB66802082A7634A501E45F194EDBF2F420C298DF903502F2A3AFEA1
+              D33903364B76AA5E02D130A3C4169089933084350ECC8B5331DAB1791DC5AC5C
+              4BC9F22B8FB0409920EFF2F316EFF03B7E572A9206448EF166C158A2C0D83DE3
+              52B0B4685EF1FA287FD8EB97986500C2588884336109997CDE6A00BF4B395283
+              7CEBFA593096317BC78D63489DE685646C9DD751CC32C02CF0ACAC17C9CB3390
+              EA65F6B8ABB1370350142531C27069770E3C95D71B73E6B853B0C7086000DE3A
+              435194BF34C029028E80D2E3A994B636CFCAD5F2B7B50993BF7783BD46C0D200
+              6B8CB01C6F579E1FECCD00A984A420D5504ABE51184B493BBBAC9D86BD192090
+              2EB42BEC277C1F856B8D61AC35E36C86593BE1D9F08CC1A12A2F7D8CFE8128A9
+              CBAE55B753EF06F5727685BD1A407F2827E318A3F7F445D60E0D38CD361120A5
+              ED2E0AF66A0072610CA14DDD8318C05AA205D17C4CE4B2B1570300D9D2E4F3D9
+              0B0650D65A7C77B5F93AE184134E38E184134E38E184EB8A2B57FE03F1BEC275
+              044133CC0000000049454E44AE426082}
+            FileName = 
+              '\\ntm.grouphms.local\fs\UserFolders\zinovev\Desktop\baseline_set' +
+              'tings_black_48dp.png'
+          end>
+        Align = Client
+        Cursor = crHandPoint
+        HitTest = False
+        Opacity = 0.500000000000000000
+        Size.Width = 42.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object bOpenSprav: TRectangle
+      Anchors = [akTop, akRight]
+      Cursor = crHandPoint
+      Fill.Color = claWhite
+      Margins.Left = 15.000000000000000000
+      Position.X = 425.000000000000000000
+      Size.Width = 42.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = bOpenSpravClick
+      OnMouseEnter = bDateFinishMouseEnter
+      OnMouseLeave = bDateFinishMouseLeave
+      object Image7: TImage
+        MultiResBitmap.Height = 96
+        MultiResBitmap.Width = 96
+        MultiResBitmap = <
+          item
+            Width = 96
+            Height = 96
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000060000000600806000000E29877
+              38000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              058E49444154785EED9C4DE86D531887FF4419181818288A81BA8AA2288AA250
+              8AA224CAC0C0D0C0C0C0D0D0D04046060686128524EA12A22814218410455114
+              45F17BAEBDBA6BADFBEEB3CE3EFB63ED8FF7A9A773FFE7EE7DCE3AEBDD7BAFEF
+              75E4388EE3388EE3388EE3388EE3388EE3388EE338ABE6B4E6B50FE7CACBE5C5
+              8DE7C90B24EF9F2D2D7E6BFC46FE24BF949FCB8F25EF8FC921E9FD43FE22BF6F
+              24BD9F48D2CBFF1DCC210120C1B7CA9BE455921F3124FCA8F7E56BF225D93720
+              53A4F7ADC65724811A9C73E403F23DF9EF84FE2DDF94F7C9B3E4BED44A2FBE2A
+              EF955DD2DB0A57CB53F24F697DD994FE2E1F935CD16DCC29BDBFCA47E5AEF4B6
+              C215F4A4E40AB43EBCA6642E3F2CBEC2E69EDE47645BF9720A3C2FBF93D687CD
+              C94FE5357229E9FD5ADE2013AC4298839DF148F2FCF4E6D5A9C496EF00EAF254
+              2191F608FE20FF92393CBF69279C2F69335C242F6BA4FCE94292E75B09C03F92
+              B6C5EB8D6FCB5E0DA8884BE4D59276C62D9240ED623301E04A7E513E2F476B20
+              1994F2CFCAF3043E60C9BE23EF975D1F0D4361A529B68875D2127C4E522DAD8D
+              95B6D822D64973F6B8BC42CE052B8DB1096B28038ACFD48929E55F925E6F0754
+              C60350190F4065B65806D08ABD54D275CDBFC368D8AE11B178048F11315E1911
+              FB4CE603469DCA802D048051B01BE575926A6AA9A5DA95FCFB3D00828C6614ED
+              36C9153E261E80E635C03801FD3353E101685E0353A7BF5700BC1654992DDE01
+              F4923206F0A18CC701424DC7828E3DBC505273E211878C079C29633ADD015B08
+              0063018C01D035FD8624E387828901F9004EA70058F0014B3227BCCF9CA01ADD
+              D271DA2C8B5827CDD91C7A474F997D3021561A6313D6F808EACA1992B64218F7
+              B560FE2AE503AF254AF997A4774B01E05174A5A4651C0A5032BEEBCC350A6D06
+              F4E986C027648C07A0812BFB7A1906CBC71AB4C9BFBF53002CF8802599C315FE
+              B8FC595AC70F6D8E754C6CC21AEF80A9D3DFEB0EF0967065FC0EF81F0A561A54
+              6DB51C0A6A0A71ABC0EE75076C2D00D45A58C912A6247E25C9FC7DA160A72BE2
+              98A42645B7F75D32A653002CF880259913FF1F73F3992FC48A9583164A1C40FC
+              FD9645AC93E66C0EEF7D2159A234753704E4E9CB2D629D3467731809E351510B
+              2B8DB1096B2C03F685563003F34C39A70B82BBC51A9867526F58A64A214DD735
+              2DE1B6C9BEA5FC4BD2BB950050605E2B2934C352D5BDD76CB54000E8DABEF9C4
+              5F27F10088D00D718FA42B829ACB58E4DFDF2900167CC092CC6105E5948BF672
+              AC636213D678074C9DFE5E778077455466CB7700032CD4666809871A8ED51D41
+              038EB1DF308591F2242EC47BDD015B090003F3EF4A360061B1DE4792399E7D20
+              08ECBAF2EC89BF4ED22900167CC092CC09EFB36DC10B926E88BE55CE2EC469B3
+              2C629D346773E8FF61538F31AB9EBBB0D2189BB0C64710CFEC7D06CFC7A2947F
+              497AD71880DA740A8057432BE301A88C07A0325B2E03A8C7B3568C095AD49890
+              C696B5D75BBE6B228DB7B06BA2AF116B5E7741EF28DDD0F490326F94F56243B5
+              0D18670E8D3C3605613ED22E361300AE64B633BB43EEB38DCC54142F1802B024
+              73187461033F762DB48EAF6D11EBA4391BB85DB2558D75CC9C2C629D346779A6
+              7F90BD376713D650062C8D24CFBD1D509921EF00EAC461D102031DDFCA30C891
+              C3141064D5219D67D4C9C3A289A9265375D935314C5709AB2491F506A4D96A37
+              EC22C9F343034022A9FBB2FA9095870C720CB50B214160250BB319D86A608880
+              8CB56B22ED0B02C19417AABA9447A58058799ED0B6FF329B673F2DEF94530D70
+              F00369341DB22137C73F23199099AA0D40BEDC2D5F96569A7E944598CC1A9F44
+              D56EEA51250BBEFF41C98F88D3975B7BD7C400DD1A0C0CC517CE43B20809E740
+              4EA6513337B8C51F96F91D31975D137328E3B880E90A591514805CED73DB35D1
+              711CC7711CC7711CC7719C168E8EFE038385F25D0FB9D9600000000049454E44
+              AE426082}
+            FileName = 
+              '\\ntm.grouphms.local\fs\UserFolders\zinovev\Desktop\baseline_men' +
+              'u_book_black_48dp.png'
+          end>
+        Align = Client
+        HitTest = False
+        Opacity = 0.500000000000000000
+        Size.Width = 42.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object bCreateFile: TRectangle
+      Anchors = [akTop, akRight]
+      Cursor = crHandPoint
+      Fill.Color = claWhite
+      Margins.Left = 15.000000000000000000
+      Position.X = 513.000000000000000000
+      Size.Width = 42.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = bCreateFileClick
+      OnMouseEnter = bDateFinishMouseEnter
+      OnMouseLeave = bDateFinishMouseLeave
+      object Image8: TImage
+        MultiResBitmap.Height = 96
+        MultiResBitmap.Width = 96
+        MultiResBitmap = <
+          item
+            Width = 96
+            Height = 96
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000060000000600806000000E29877
+              38000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              021249444154785EED9D314E1C411000CF96433F83C0214FF08FFC0842070E08
+              097902010992433FC12189034B7E800302E89116E984FA6EF76E16D5CC6C9554
+              DAB47BEB16B825989D8888888888C80A5C8457E1AFF0317C86FD166E824FE1F7
+              F029CC6E04E9F011CACDBF0FB3E55B71E8083FC26CE9D61C32C297B0C51F3B87
+              1C2E422F9FFE7D878AF03BCC96A45CFA811826C2FF305B90B2B0A908D962A4AF
+              6C2642B614E93E9B88902D44FA96E12364CB90660C1D215B84F410C346C89620
+              3DC69011B20548E7182E42363CE912868A900D4EBA9461226443939EC21011B2
+              81494FA5FB08D9B0A4E7D075846C50D273E936423624690D5D46C80624ADA5BB
+              08D970A46BD055846C30D2B5581A01271B8A744D9644C0C986225D9BB90838D9
+              50A4EFC1B108557C98AE35540FD13955F7F0E374150803C01800C60030068031
+              008C01607AFC1E3037736BF31CC52700C60030068031008C01600C0063001803
+              C01800C60030068069E15DD01A33D480CEEF130063001803C01800C600300680
+              31004C0BDF034E656E66FF272CCB31008C01600C0063001803C01800C6003006
+              8031008C01607A7C17D41ABE0BEA1903C01800C60075FC99AE67B34680BFD375
+              8B3411E061BA6E912676FF1A963F45B76639BAAB1CDBD804776136E4C896631B
+              9BE173D8DA7156EFE9CFB01CDFD81425C2169E84EBB0B99BBF4FF99D701BFE0B
+              B3057AB41CCB7B135E8622222222222215EC762F215D0C6325F3084A00000000
+              49454E44AE426082}
+            FileName = 
+              '\\ntm.grouphms.local\fs\UserFolders\zinovev\Desktop\baseline_not' +
+              'e_add_black_48dp.png'
+          end>
+        Align = Client
+        HitTest = False
+        Opacity = 0.500000000000000000
+        Size.Width = 42.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object layDateChangeBG: TLayout
+    Align = Scale
+    Position.X = 9.471699714660645000
+    Position.Y = 113.987854003906300000
+    Size.Width = 616.844543457031300000
+    Size.Height = 50.252670288085940000
+    Size.PlatformDefault = False
+    TabOrder = 47
+    object layDateChange: TLayout
+      Align = Center
+      Size.Width = 257.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object lYear: TLabel
+        Align = Left
+        AutoSize = True
+        StyledSettings = [Family]
+        Size.Width = 66.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDodgerblue
+        TextSettings.HorzAlign = Center
+        TextSettings.WordWrap = False
+        Text = '2020'
+      end
+      object lPrev: TLabel
+        Align = Left
+        AutoSize = True
+        Cursor = crHandPoint
+        StyledSettings = [Family]
+        HitTest = True
+        Position.X = 66.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claLightgray
+        TextSettings.HorzAlign = Center
+        TextSettings.WordWrap = False
+        Text = '<<'
+        OnClick = lPrevClick
+        OnMouseEnter = lPrevMouseEnter
+        OnMouseLeave = lPrevMouseLeave
+      end
+      object lMonth: TLabel
+        Align = Left
+        AutoSize = True
+        StyledSettings = [Family]
+        Position.X = 107.000000000000000000
+        Size.Width = 108.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDodgerblue
+        TextSettings.HorzAlign = Center
+        TextSettings.WordWrap = False
+        Text = #1071#1053#1042#1040#1056#1068
+      end
+      object lNext: TLabel
+        Align = Left
+        AutoSize = True
+        Cursor = crHandPoint
+        StyledSettings = [Family]
+        HitTest = True
+        Position.X = 215.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claLightgray
+        TextSettings.HorzAlign = Center
+        TextSettings.WordWrap = False
+        Text = '>>'
+        OnClick = lNextClick
+        OnMouseEnter = lPrevMouseEnter
+        OnMouseLeave = lPrevMouseLeave
+      end
+    end
+  end
+  object Layout2: TLayout
+    Position.X = 184.000000000000000000
+    Position.Y = 63.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 43
+    object lDateFinish: TLabel
+      Align = Left
+      AutoSize = True
+      StyledSettings = [Family, FontColor]
+      Size.Width = 82.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.HorzAlign = Center
+      TextSettings.WordWrap = False
+      Text = '31.12.2020'
+    end
+    object bDateFinish: TDateEdit
+      Date = 44090.000000000000000000
+      OnChange = bDateFinishChange
+      Align = Right
+      Position.X = 88.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, FontColor]
+      TabOrder = 0
+      TextSettings.Font.Style = [fsBold]
+    end
+  end
+  object Label40: TLabel
+    AutoSize = True
+    StyledSettings = [Family]
+    Position.X = 312.000000000000000000
+    Position.Y = 37.000000000000000000
+    Size.Width = 183.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claDarkgray
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1053#1072#1080#1084#1077#1085#1086#1074#1072#1085#1080#1077' '#1086#1073#1098#1077#1082#1090#1072':'
+  end
+  object Label41: TLabel
+    AutoSize = True
+    StyledSettings = [Family]
+    Position.X = 312.000000000000000000
+    Position.Y = 61.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claDarkgray
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1052#1077#1089#1090#1086#1085#1072#1093#1086#1078#1076#1077#1085#1080#1077' '#1086#1073#1098#1077#1082#1090#1072':'
+  end
+  object Label42: TLabel
+    AutoSize = True
+    StyledSettings = [Family]
+    Position.X = 8.000000000000000000
+    Position.Y = 37.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claDarkgray
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1044#1072#1090#1072' '#1085#1072#1095#1072#1083#1072' '#1088#1072#1073#1086#1090':'
+  end
+  object lObjName: TLabel
+    Anchors = [akLeft, akTop, akRight]
+    StyledSettings = [Family, FontColor]
+    Position.X = 528.000000000000000000
+    Position.Y = 37.000000000000000000
+    Size.Width = 716.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.WordWrap = False
+    Text = #1053#1072#1080#1084#1077#1085#1086#1074#1072#1085#1080#1077' '#1086#1073#1098#1077#1082#1090#1072
+  end
+  object lObjPlace: TLabel
+    Anchors = [akLeft, akTop, akRight]
+    StyledSettings = [Family, FontColor]
+    Position.X = 528.000000000000000000
+    Position.Y = 61.000000000000000000
+    Size.Width = 716.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.WordWrap = False
+    Text = #1052#1077#1089#1090#1086#1085#1072#1093#1086#1078#1076#1077#1085#1080#1077' '#1086#1073#1098#1077#1082#1090#1072
+  end
+  object Label46: TLabel
+    AutoSize = True
+    StyledSettings = [Family]
+    Position.X = 8.000000000000000000
+    Position.Y = 61.000000000000000000
+    Size.Width = 174.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claDarkgray
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1044#1072#1090#1072' '#1086#1082#1086#1085#1095#1072#1085#1080#1103' '#1088#1072#1073#1086#1090':'
+  end
+  object layOpenedFile: TLayout
+    Position.X = 312.000000000000000000
+    Position.Y = 87.000000000000000000
+    Size.Width = 521.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 45
+    object Label49: TLabel
+      AutoSize = True
+      StyledSettings = [Family]
+      Position.X = 1.000000000000000000
+      Position.Y = -1.000000000000000000
+      Size.Width = 119.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.FontColor = claDarkgray
+      TextSettings.HorzAlign = Center
+      TextSettings.WordWrap = False
+      Text = #1050#1086#1084#1072#1085#1076#1080#1088#1086#1074#1082#1072':'
+    end
+    object lFileName: TLabel
+      AutoSize = True
+      StyledSettings = [Family, FontColor]
+      Position.X = 216.000000000000000000
+      Size.Width = 126.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.WordWrap = False
+      Text = #1060#1072#1081#1083' '#1085#1077' '#1074#1099#1073#1088#1072#1085
+    end
+  end
+  object OpenDialog: TOpenDialog
+    DefaultExt = '*.spr'
+    Filter = #1057#1087#1088#1072#1074#1086#1095#1085#1080#1082#1080' (*.spr)|*.spr'
+    Left = 624
+    Top = 64
+  end
+  object layWork: TLayout
+    Align = Scale
+    Position.X = 634.604187011718800000
+    Position.Y = 176.497283935546900000
+    Size.Width = 609.741027832031300000
+    Size.Height = 723.148681640625000000
+    Size.PlatformDefault = False
+    TabOrder = 49
+  end
+  object layDialog: TLayout
+    ClipChildren = True
+    Position.X = 16.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 55
+  end
+  object lHint: TLabel
+    Anchors = [akTop, akRight]
+    StyledSettings = [Family, Size]
+    Position.X = 634.604187011718800000
+    Position.Y = 155.660766601562500000
+    Size.Width = 609.741027832031300000
+    Size.Height = 19.610824584960940000
+    Size.PlatformDefault = False
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claDarkgray
+    TextSettings.HorzAlign = Trailing
+    Text = 'Hint'
+  end
+  object layLocations: TLayout
+    Align = Top
+    Size.Width = 1255.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 58
+    object flLocations: TFlowLayout
+      Align = Client
+      Size.Width = 1150.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+    object Label39: TLabel
+      Align = Left
+      StyledSettings = [Family]
+      Position.X = 33.000000000000000000
+      Size.Width = 72.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.FontColor = claDarkgray
+      TextSettings.HorzAlign = Center
+      Text = #1054#1073#1098#1077#1082#1090#1099':'
+    end
+    object Image5: TImage
+      MultiResBitmap.Height = 36
+      MultiResBitmap.Width = 36
+      MultiResBitmap = <
+        item
+          Width = 36
+          Height = 36
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000024000000240806000000E10098
+            98000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            01C1494441545847ED97AF4BC74018C6A7180C0683C1202868301A0C7683C1A0
+            60301A0C0683D1E01F60B00A068382C122188D220683418362346810148C0A0A
+            FA3CEC06733CBBFD786F43F1FB810FEF18DBBDB7EDEEBD5BD4E1AFD1E562557A
+            E10C9C87E37010924778038FE019FC848DB3041FE0578177701636461F3C862A
+            B9CF1DD80383C206CFA14A58C64318945DA812557103066112AA04557D8343D0
+            CC095409D23EC3D7CC3925C7938901F80155E3F41472DA274CC12BA8AEA5ECB8
+            69802F40D530E5B4663DCAC2876062750FE510C8A5DBC53C465C546CC3F7F8F0
+            072F703F3E940CBB2829EA106B4F1EB72E2AAE5D54F4BB2829EA109F368F5117
+            15E97195E5C9C55A70BD52E3805E403540F956EFA1BA87FA3A5B08EB866A34F1
+            00A63F01AFF79509D622F332E29BC694492E21AFF39508CAB5D0CC1A548DD771
+            0E9AE15EA7E8C9CBC8DAA4EA562DF6A04A52C575188C3168794B9C75C1DE4E82
+            650BB20883C3B1546645CFCA8D5D63AC4295D4A77731B5C2A2C60AAD122B3919
+            1A6702B218AA0EA4E534E756A415CA144BAE83ADE25BB33661EBF073A81F46CE
+            2AF3025A17CEA074C1E4B809F267616119B233ECD8344FFC06B6E04A7CD8E15F
+            1145DF53DF5A3F072339390000000049454E44AE426082}
+          FileName = 'Y:\TimesheetSolo\icons\baseline_room_black_18dp.png'
+        end>
+      Align = Left
+      Opacity = 0.500000000000000000
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 23.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Layout1: TLayout
+    Position.X = 184.000000000000000000
+    Position.Y = 39.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 42
+    object lDateBegin: TLabel
+      Align = Left
+      AutoSize = True
+      StyledSettings = [Family, FontColor]
+      Size.Width = 82.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.HorzAlign = Center
+      TextSettings.WordWrap = False
+      Text = '31.12.2020'
+    end
+    object bDateBegin: TDateEdit
+      Date = 44090.000000000000000000
+      OnChange = bDateBeginChange
+      Align = Right
+      Position.X = 88.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, FontColor]
+      TabOrder = 0
+      TextSettings.Font.Style = [fsBold]
+    end
+  end
+  object Layout3: TLayout
+    Position.X = 8.000000000000000000
+    Position.Y = 87.000000000000000000
+    Size.Width = 268.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 44
+    object Label38: TLabel
+      AutoSize = True
+      StyledSettings = [Family]
+      Position.X = 1.000000000000000000
+      Position.Y = -1.000000000000000000
+      Size.Width = 99.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.FontColor = claDarkgray
+      TextSettings.HorzAlign = Center
+      TextSettings.WordWrap = False
+      Text = #1057#1087#1088#1072#1074#1086#1095#1085#1080#1082':'
+    end
+    object lSpravFilename: TLabel
+      AutoSize = True
+      StyledSettings = [Family, FontColor]
+      Position.X = 100.000000000000000000
+      Size.Width = 126.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.WordWrap = False
+      Text = #1060#1072#1081#1083' '#1085#1077' '#1074#1099#1073#1088#1072#1085
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = '*.ms'
+    Filter = #1050#1086#1084#1072#1085#1076#1080#1088#1086#1074#1082#1072' (*.ms)|*.ms'
+    Left = 568
+    Top = 72
+  end
+end

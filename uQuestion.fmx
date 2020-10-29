@@ -1,0 +1,111 @@
+object fQuestion: TfQuestion
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object layout: TLayout
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle2: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Opacity = 0.750000000000000000
+      Size.Width = 640.000000000000000000
+      Size.Height = 480.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object rectMess: TRectangle
+      Align = Center
+      Fill.Color = claGhostwhite
+      Size.Width = 472.000000000000000000
+      Size.Height = 242.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claGainsboro
+      XRadius = 20.000000000000000000
+      YRadius = 20.000000000000000000
+      object Button2: TButton
+        Anchors = [akBottom]
+        Position.X = 172.000000000000000000
+        Position.Y = 204.000000000000000000
+        Size.Width = 80.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = #1044#1072
+        OnClick = Button2Click
+      end
+      object layTextContainer: TLayout
+        Anchors = [akTop]
+        Position.X = 80.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 377.000000000000000000
+        Size.Height = 173.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Label1: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Size, FontColor]
+          Size.Width = 374.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.HorzAlign = Center
+          Text = 
+            'Label1 adfgdsgsdfh sfghsfgh sfhgsf ghsfghsfgh sfghsfhsfhsfhsfhf ' +
+            'fhgshgsfhgsfhs fghsfhsfh sfghs fhgsfghsfh fh '
+        end
+      end
+      object layPadding: TLayout
+        Position.X = 16.000000000000000000
+        Position.Y = 209.000000000000000000
+        Size.Width = 17.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+      end
+      object Circle1: TCircle
+        Fill.Color = claWhite
+        Position.X = 23.000000000000000000
+        Position.Y = 15.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDodgerblue
+        Stroke.Thickness = 3.000000000000000000
+        object Label2: TLabel
+          Align = Client
+          StyledSettings = [Family]
+          Size.Width = 41.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 30.000000000000000000
+          TextSettings.Font.Style = [fsBold]
+          TextSettings.FontColor = claDodgerblue
+          TextSettings.HorzAlign = Center
+          Text = '?'
+        end
+      end
+      object Button1: TButton
+        Anchors = [akBottom]
+        Position.X = 292.000000000000000000
+        Position.Y = 204.000000000000000000
+        Size.Width = 80.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = #1053#1077#1090
+        OnClick = Button1Click
+      end
+    end
+  end
+end

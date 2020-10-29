@@ -1,0 +1,60 @@
+object fInfo: TfInfo
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object layHeader: TLayout
+      Align = Top
+      Size.Width = 640.000000000000000000
+      Size.Height = 145.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object lHeader: TLabel
+        Align = Top
+        StyledSettings = [Family]
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 640.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDodgerblue
+        Text = #1057#1042#1054#1044#1053#1040#1071
+      end
+      object lNoTasks: TLabel
+        Align = Client
+        ClipChildren = True
+        StyledSettings = [Family]
+        Size.Width = 640.000000000000000000
+        Size.Height = 118.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.Font.Style = [fsBold]
+        TextSettings.FontColor = claDarkgray
+        TextSettings.HorzAlign = Center
+        TextSettings.WordWrap = False
+        Text = #1047#1072#1076#1072#1095#1080' '#1085#1072' '#1101#1090#1086#1090' '#1076#1077#1085#1100' '#1086#1090#1089#1091#1090#1089#1090#1074#1091#1102#1090
+      end
+    end
+    object sbList: TVertScrollBox
+      Align = Client
+      Size.Width = 640.000000000000000000
+      Size.Height = 335.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Viewport.Width = 640.000000000000000000
+      Viewport.Height = 335.000000000000000000
+    end
+  end
+end

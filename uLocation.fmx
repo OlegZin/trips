@@ -1,0 +1,229 @@
+object fLocation: TfLocation
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 593
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 593.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Align = Top
+      StyledSettings = [Family]
+      Size.Width = 640.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.FontColor = claDodgerblue
+      Text = #1054#1041#1066#1045#1050#1058#1067
+    end
+    object lNoTasks: TLabel
+      ClipChildren = True
+      StyledSettings = [Family]
+      Margins.Left = 25.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 593.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.FontColor = claDarkgray
+      TextSettings.WordWrap = False
+      Text = #1053#1072#1080#1084#1077#1085#1086#1074#1072#1085#1080#1077' '#1086#1073#1098#1077#1082#1090#1072
+    end
+    object eObjectName: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      TabOrder = 1
+      Position.X = 24.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 545.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      object EditButton1: TEditButton
+        CanFocus = False
+        Cursor = crArrow
+        Size.Width = 28.000000000000000000
+        Size.Height = 18.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = '...'
+        OnClick = EditButton1Click
+      end
+    end
+    object Label2: TLabel
+      ClipChildren = True
+      StyledSettings = [Family]
+      Margins.Left = 25.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 77.000000000000000000
+      Size.Width = 376.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.FontColor = claDarkgray
+      TextSettings.WordWrap = False
+      Text = #1052#1077#1089#1090#1086#1085#1072#1093#1086#1078#1076#1077#1085#1080#1077' '#1086#1073#1098#1077#1082#1090#1072
+    end
+    object eObjectPlace: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      TabOrder = 0
+      Position.X = 24.000000000000000000
+      Position.Y = 100.000000000000000000
+      Size.Width = 433.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      object EditButton2: TEditButton
+        CanFocus = False
+        Cursor = crArrow
+        Size.Width = 28.000000000000000000
+        Size.Height = 18.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = '...'
+        OnClick = EditButton2Click
+      end
+    end
+    object eZavNum: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akTop, akRight]
+      TabOrder = 8
+      Position.X = 464.000000000000000000
+      Position.Y = 100.000000000000000000
+      Size.Width = 105.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label3: TLabel
+      Anchors = [akTop, akRight]
+      ClipChildren = True
+      StyledSettings = [Family]
+      Margins.Left = 25.000000000000000000
+      Position.X = 465.000000000000000000
+      Position.Y = 77.000000000000000000
+      Size.Width = 72.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.FontColor = claDarkgray
+      TextSettings.WordWrap = False
+      Text = #1047#1072#1074'.'#8470
+    end
+    object AddLocation: TCircle
+      Tag = -5
+      Anchors = [akTop, akRight]
+      Cursor = crHandPoint
+      Fill.Color = claWhite
+      Padding.Left = 2.000000000000000000
+      Padding.Top = 2.000000000000000000
+      Padding.Right = 2.000000000000000000
+      Padding.Bottom = 2.000000000000000000
+      Position.X = 584.000000000000000000
+      Position.Y = 42.000000000000000000
+      Size.Width = 33.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = AddLocationClick
+      object Image4: TImage
+        MultiResBitmap.Height = 324
+        MultiResBitmap.Width = 720
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Width = 36
+            Height = 36
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000024000000240806000000E10098
+              98000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              02A1494441545847ED983FA88E511CC71F32180C060345190C4683E10A51468A
+              A20C0683D1C068A3280B312A8349068490E996DB258AA2EE60A00C1465305014
+              C5F7F39CF37BFBBDE779EEE33CCF3DAFA2FBA94FE777DF7B9FF39CBFBF73DE5B
+              2DF2AFB124967DD924F7C6727514DECB8FF2B9BC29DFC889B14C1E93EFE4AF4C
+              5FC9C3B2388CC66BD9F6D21C5FC86DB2082765FA824FF28ADC2FA7E4FA282F3D
+              24AFC92FD23FF3431E9183618AAE4B5FE907C9B4F1BB3FB142D299CFD2D77141
+              0EE2B4F4153D902B655FD6CA67D2D7D57BA40E4A5F01BDCA1995F9582EFD6833
+              7DD96B8A87991A7BF8AEEC62A7646A90783EA8D78F140B3D0BBF88DF4AD64217
+              FEEF89BB60FAFC9A6AA484A5B134E8C5F110D69C925F43580412E7C510D69C88
+              E588B4415BA52D5CB2ECD51016E5BCB44E6E941B4218481B7420967043FE0C61
+              5168CCBD10D690CB46A40DDA1C4BB81FCB49E01BE4DFD9385C39A75878B04E32
+              E7063B684708C7E073DB5D0FA32933D27FCE969F0D61F5486E0F61135BFD98E2
+              77535FD3DDC73163BF63278F48A7EC6FE1D7E658C24DA78C8468779B3592BB8D
+              5172CA38909F84B07A2AB784B009D9D386726CB175D027311AEC2C7BE6161F18
+              E994BD8C25EC8EE524D8134BF0EF6C34E8762C615F2C4BC39AF10DBA13CB9AB4
+              41D3F27B0847F7E6D21C95AB4258A795CE11228B5E0A61CD19B9906B470AC792
+              3FBFCEC5B2131EF227F265D9053B8CC58CB6DBDAA0635CF2AC5EEEE8D99DE59A
+              6A0F223F2F142E79BECEDECB814BBCAF80911A327DDCA7B8E4F9BA72D3C318DC
+              8D386F7C457332B767349E0B184783AF83ABEC6068543A524802A597244FCBEC
+              C0C1CCC17956B67D8FE38B43914DC21A4ABFCEF49123892F0E4561F7B130BFC9
+              B697B649271849463A8B21FF6C6091EE9264F2AE7F3670E37C2C2DD12EF23F52
+              55BF01A572F6AEE4734B510000000049454E44AE426082}
+            FileName = 
+              '\\ntm.grouphms.local\fs\UserFolders\zinovev\Desktop\baseline_add' +
+              '_circle_outline_black_18dp.png'
+          end>
+        Align = Client
+        HitTest = False
+        Size.Width = 29.000000000000000000
+        Size.Height = 29.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object layFlow: TFlowLayout
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      ClipChildren = True
+      Position.X = 24.000000000000000000
+      Position.Y = 144.000000000000000000
+      Size.Width = 593.000000000000000000
+      Size.Height = 369.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+    object Label4: TLabel
+      Anchors = [akLeft, akRight, akBottom]
+      ClipChildren = True
+      StyledSettings = [Family]
+      Position.X = 24.000000000000000000
+      Position.Y = 521.000000000000000000
+      Size.Width = 545.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      TextSettings.FontColor = claCoral
+      TextSettings.WordWrap = False
+      Text = #1055#1088#1080' '#1091#1076#1072#1083#1077#1085#1080#1080' '#1086#1073#1098#1077#1082#1090#1072' '#1074#1089#1077' '#1087#1088#1080#1074#1103#1079#1072#1085#1085#1099#1077' '#1082' '#1085#1077#1084#1091' '#1079#1072#1076#1072#1095#1080' '#1073#1091#1076#1091#1090' '#1091#1076#1072#1083#1077#1085#1099
+    end
+    object Button2: TButton
+      Anchors = [akRight, akBottom]
+      Position.X = 540.000000000000000000
+      Position.Y = 552.000000000000000000
+      TabOrder = 2
+      Text = #1054#1090#1084#1077#1085#1072
+      OnClick = Button2Click
+    end
+    object Button1: TButton
+      Anchors = [akLeft, akBottom]
+      Position.X = 24.000000000000000000
+      Position.Y = 552.000000000000000000
+      TabOrder = 4
+      Text = #1057#1086#1093#1088#1072#1085#1080#1090#1100
+      OnClick = Button1Click
+    end
+  end
+end
